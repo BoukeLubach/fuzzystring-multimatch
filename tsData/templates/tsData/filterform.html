@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+
+
+<h3>Search tags</h3>
+<form method="GET" action=".">
+
+    {{ form.searchInput|as_crispy_field }}
+    <div class="mt-4">
+        <label for="id_filter_threshold" class="mt-2 mb-0">
+            Match threshold
+        </label>
+        <input type="range" name="filter_threshold" min="1" max="100" value="{{ threshold_value }}"
+            class="numberinput form-control" required="" id="id_filter_threshold">
+    </div>
+
+
+
+    <div class="row">
+        <div class="col-md-10 offset-1">
+            <button type="submit" class="btn btn-primary">Search</button>
+        </div>
+    </div>
+
+
+</form>
+
+<hr />
+
+
+<div class="row">
+    <div class="col-md-12">
+        <table class='table table-hover'>
+            <thead>
+                <tr class="row">
+                    <th class="col-1">#</th>
+                    <th class="col-3">Name</th>
+                    <th class="col-4">Description</th>
+                    <th class="col-2">Site</th>
+                    <th class="col-2">Uom</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                {% for tag in queryset %}
+
+                <tr class="row">
+                    <td class="text col-1">{{ tag.id }}</td>
+                    <td class="text col-3">{{ tag.tagName }}</td>
+                    <td class="text col-4">{{ tag.description }}</td>
+                    <td class="col-2">{{ tag.site }}</td>
+                    <td class="col-2">{{ tag.uom }}</td>
+
+                </tr>
+
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
+{% endblock content %}

@@ -1,0 +1,50 @@
+tagname;description;uom;site;company
+16T101;16-TICA-101   TEMP. AC21 SCH.51;C;Teijin Delfzijl;Teijin
+16T102;16TIA-102   BODEMTEMP. AC21;C;Teijin Delfzijl;Teijin
+16F126;16-FICA-12   RUWE OLIE PPD NAAR A C-1621;KG/H;Teijin Delfzijl;Teijin
+16F101;16FISA-101   OPD REFLUX -> AC1621;KG/H;Teijin Delfzijl;Teijin
+16T107;16TI-107   OLIE TEMP. UIT AH-21;C;Teijin Delfzijl;Teijin
+16F103;16FICA-103   TOPAFLOOP AC21;KG/H;Teijin Delfzijl;Teijin
+16F101;16FISA-101   OPD REFLUX -> AC1621;KG/H;Teijin Delfzijl;Teijin
+16F102;16FICA-102   THERM. OLIE AH21;KG/H;Teijin Delfzijl;Teijin
+16F26;16-FIC-26   FLOW AC21;KG/H;Teijin Delfzijl;Teijin
+16F06;16FICA-06   VOEDING AC01;KG/H;Teijin Delfzijl;Teijin
+7201FT01  ;WMD inkoop                    ;m3/h;DOC hoogeveen;DOC
+EG_8151FT01_M3_HUIDIG                   ;Aardgas inkoop;Nm3/h;DOC hoogeveen;DOC
+EG_8152FT01_M3_HUID                     ;Aardgas naar DVN;Nm3/h;DOC hoogeveen;DOC
+EG_8153FT01_m3_HUID                     ;Aardgas naar Ketel 1;Nm3/h;DOC hoogeveen;DOC
+EG_8154FT01_m3_HUID                     ;Aardgas naar Ketel 2;Nm3/h;DOC hoogeveen;DOC
+EG_8155FT01_m3_HUID                     ;Aardgas naar GT;Nm3/h;DOC hoogeveen;DOC
+8121FT01;Stoom ketel 1;ton/h;DOC hoogeveen;DOC
+8122FT01;Stoom ketel 2;ton/h;DOC hoogeveen;DOC
+8123FT01;Stoom naar DVN                ;ton/h;DOC hoogeveen;DOC
+8124FT01;Stoom DOC;ton/h;DOC hoogeveen;DOC
+IM4SCAD1.GASVRBRZONE.F_CV;Gasverbruik drogers;;Trespa Weert;Trespa
+IMSCADA.AFGAS_GASVERBRUIK_Y02A1.F_CV;Gasverbruik Afgasverbrander;;Trespa Weert;Trespa
+IM4SCAD1.TEMPSLUIS.F_CV;Temperatuur sluis;;Trespa Weert;Trespa
+IM4SCAD1.TEMPZONE1.F_CV;Temperatuur zone 1;;Trespa Weert;Trespa
+IM4SCAD1.TEMPZONE2.F_CV;Temperatuur zone 2;;Trespa Weert;Trespa
+IM4SCAD1.TEMPZONE3.F_CV;Temperatuur zone 3;;Trespa Weert;Trespa
+IM4SCAD1.TEMPZONE4.F_CV;Temperatuur zone 4;;Trespa Weert;Trespa
+IM4SCAD1.TEMPZONE5.F_CV;Temperatuur zone 5;;Trespa Weert;Trespa
+IM4SCAD1.TEMPZONE6.F_CV;Temperatuur zone 6;;Trespa Weert;Trespa
+IM4SCAD1.TEMPZONE7.F_CV;Temperatuur zone 7;;Trespa Weert;Trespa
+IM4SCAD1.TEMPZONE8.F_CV;Temperatuur zone 8;;Trespa Weert;Trespa
+IMSCADA.AFGAS_POS_FRISSELUCHTKL_MO2C1.F_CV;Positie frisseluchtklep;;Trespa Weert;Trespa
+IMSCADA.AFGAS_POS_REGELKL_LUVO_E05N1.F_CV;Positie LUVO regelklep naar WW;;Trespa Weert;Trespa
+IMSCADA.AFGAS_RPM_HOOFDVENTILATOR.F_CV;Toerental hoofdventilator;;Trespa Weert;Trespa
+IMSCADA.AFGAS_RPM_LUVOVENTILATOR.F_CV;Toerental LUVO ventilator;;Trespa Weert;Trespa
+IMSCADA.AFGAS_SP_AFZUIGVENT_IM4.F_CV;Toerental droger ventilator;;Trespa Weert;Trespa
+IMSCADA.AFGAS_TEMP_AFGAS_IMP4.F_CV;Temperatuur afgas IMP4;;Trespa Weert;Trespa
+IMSCADA.AFGAS_TEMP_AFGAS_LUVO_E05N1.F_CV;Temperatuur LUVO;;Trespa Weert;Trespa
+IMSCADA.AFGAS_TEMP_NA_AFGAS_E12B4.F_CV;Temperatuur na afgas;;Trespa Weert;Trespa
+IMSCADA.AFGAS_TEMP_VOOR_AFGAS_E12B3.F_CV;Temperatuur voor afgas;;Trespa Weert;Trespa
+IMSCADA.AFGAS_TEMP_IN_KAMER_E12B5.F_CV ;Temperatuur schoorsteen;;Trespa Weert;Trespa
+IMSCADA.LEL_XG1.F_CV;LEL;;Trespa Weert;Trespa
+IMSCADA.LEL_XG2.F_CV;LEL;;Trespa Weert;Trespa
+IMSCADA.LEL_XG3.F_CV;LEL;;Trespa Weert;Trespa
+IMSCADA.LEL_XG4.F_CV;LEL voor ventilator;;Trespa Weert;Trespa
+IM4SCAD1.METHANOLMETING.F_CV;LEL harsbad;;Trespa Weert;Trespa
+IMSCADA.AFGAS_ONDERDRUK_AFZ_E03B1.F_CV;Onderdruk TNV;;Trespa Weert;Trespa
+IMSCADA.AFGAS_FLOW_AFGAS_IM4.F_CV;Flow afgas Imp. 4 (F_CV);;Trespa Weert;Trespa
+IMSCADA.AFGAS_FLOW_NAAR_AFGAS.F_CV;Totale flow naar afgasverbrander (F_CV);;Trespa Weert;Trespa
