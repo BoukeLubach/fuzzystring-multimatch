@@ -27,7 +27,7 @@ function global:deactivate ([switch]$NonDestructive) {
 
 deactivate -nondestructive
 
-$env:VIRTUAL_ENV="C:\Users\Bouke\Dropbox\Python\100 websites project\fwTagfilter\.venv"
+$env:VIRTUAL_ENV="C:\Users\WaterandEnergy\Dropbox\Python\100 websites project\Fuzzystring_multimatch\.venv"
 
 if (! $env:VIRTUAL_ENV_DISABLE_PROMPT) {
     # Set the prompt to include the env name

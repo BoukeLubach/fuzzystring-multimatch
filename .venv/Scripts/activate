@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\Bouke\Dropbox\Python\100 websites project\fwTagfilter\.venv"
+VIRTUAL_ENV="C:\Users\WaterandEnergy\Dropbox\Python\100 websites project\Fuzzystring_multimatch\.venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
